@@ -1,0 +1,482 @@
+payment_id,customer_id,subscription_id,amount,failure_reason_code,raw_bank_message,attempt_number,failed_at
+pay_00001,cust_1001,sub_1,1519.14,insufficient_funds,,1,2026-07-23 04:47:06
+pay_00002,cust_1001,sub_1,1519.14,insufficient_funds,,2,2026-07-26 23:57:34
+pay_00011,cust_1010,sub_10,3567.74,mandate_revoked,,1,2026-05-25 20:04:38
+pay_00133,cust_1100,sub_100,4388.05,card_expired,,1,2026-06-08 09:30:30
+pay_00134,cust_1100,sub_100,4388.05,card_expired,,2,2026-06-10 10:11:03
+pay_00135,cust_1101,sub_101,746.62,fraud_suspected,,1,2026-08-12 12:31:04
+pay_00136,cust_1102,sub_102,927.29,mandate_revoked,,1,2026-06-09 09:05:15
+pay_00137,cust_1103,sub_103,3109.32,fraud_suspected,,1,2026-06-02 07:49:33
+pay_00138,cust_1104,sub_104,1626.3,ambiguous_bank_error,"NPCI/HDFC: mandate execution failed, reason unspecified, retry advised after 24h.",1,2026-06-06 13:19:36
+pay_00139,cust_1105,sub_105,4747.43,mandate_revoked,,1,2026-07-25 20:13:16
+pay_00140,cust_1106,sub_106,1033.31,insufficient_funds,,1,2026-08-11 05:00:26
+pay_00141,cust_1106,sub_106,1033.31,insufficient_funds,,2,2026-08-13 22:38:30
+pay_00142,cust_1107,sub_107,3592.39,insufficient_funds,,1,2026-06-23 02:43:14
+pay_00143,cust_1108,sub_108,3199.28,fraud_suspected,,1,2026-05-28 06:27:07
+pay_00144,cust_1109,sub_109,4559.37,issuer_timeout,,1,2026-08-02 02:03:10
+pay_00012,cust_1011,sub_11,1374.09,issuer_timeout,,1,2026-06-22 12:17:59
+pay_00013,cust_1011,sub_11,1374.09,issuer_timeout,,2,2026-06-25 22:35:14
+pay_00145,cust_1110,sub_110,4155.35,issuer_timeout,,1,2026-07-15 14:07:29
+pay_00146,cust_1110,sub_110,4155.35,issuer_timeout,,2,2026-07-18 09:44:25
+pay_00147,cust_1111,sub_111,2569.22,card_expired,,1,2026-08-10 19:02:56
+pay_00148,cust_1111,sub_111,2569.22,card_expired,,2,2026-08-12 23:20:38
+pay_00149,cust_1111,sub_111,2569.22,card_expired,,3,2026-08-14 00:05:14
+pay_00150,cust_1112,sub_112,2959.96,fraud_suspected,,1,2026-08-18 21:52:17
+pay_00151,cust_1113,sub_113,1039.92,fraud_suspected,,1,2026-06-15 20:28:58
+pay_00152,cust_1114,sub_114,2291.25,ambiguous_bank_error,Declined by issuer (TXN_FAIL_09) - insufficient info from gateway response.,1,2026-06-19 02:30:22
+pay_00153,cust_1115,sub_115,970.96,insufficient_funds,,1,2026-06-29 22:31:18
+pay_00154,cust_1116,sub_116,3849.4,card_expired,,1,2026-08-16 14:05:20
+pay_00155,cust_1116,sub_116,3849.4,card_expired,,2,2026-08-18 10:07:49
+pay_00156,cust_1117,sub_117,4941.97,card_expired,,1,2026-05-28 17:29:26
+pay_00157,cust_1118,sub_118,3187.64,card_expired,,1,2026-06-18 20:28:48
+pay_00158,cust_1119,sub_119,827.86,insufficient_funds,,1,2026-07-15 14:56:44
+pay_00014,cust_1012,sub_12,3923.8,fraud_suspected,,1,2026-07-22 01:51:20
+pay_00159,cust_1120,sub_120,3223.11,insufficient_funds,,1,2026-07-21 22:10:19
+pay_00160,cust_1121,sub_121,646.4,issuer_timeout,,1,2026-08-06 14:07:41
+pay_00161,cust_1122,sub_122,3638.7,card_expired,,1,2026-06-16 22:17:26
+pay_00162,cust_1122,sub_122,3638.7,card_expired,,2,2026-06-18 15:15:29
+pay_00163,cust_1123,sub_123,4623.97,card_expired,,1,2026-06-16 23:56:08
+pay_00164,cust_1124,sub_124,3991.03,insufficient_funds,,1,2026-06-28 10:59:50
+pay_00165,cust_1124,sub_124,3991.03,insufficient_funds,,2,2026-07-01 08:52:00
+pay_00166,cust_1125,sub_125,3016.3,insufficient_funds,,1,2026-05-28 15:55:09
+pay_00167,cust_1126,sub_126,1794.71,card_expired,,1,2026-06-12 12:29:59
+pay_00168,cust_1127,sub_127,3546.99,insufficient_funds,,1,2026-06-08 12:14:54
+pay_00169,cust_1128,sub_128,3773.58,insufficient_funds,,1,2026-07-03 12:42:50
+pay_00170,cust_1128,sub_128,3773.58,insufficient_funds,,2,2026-07-06 04:31:02
+pay_00171,cust_1129,sub_129,1792.57,ambiguous_bank_error,Declined by issuer (E1042) - insufficient info from gateway response.,1,2026-08-08 14:06:33
+pay_00015,cust_1013,sub_13,4582.05,insufficient_funds,,1,2026-06-09 22:20:13
+pay_00172,cust_1130,sub_130,3341.95,card_expired,,1,2026-08-01 02:30:50
+pay_00173,cust_1130,sub_130,3341.95,card_expired,,2,2026-08-03 10:39:44
+pay_00174,cust_1131,sub_131,1776.11,insufficient_funds,,1,2026-05-26 17:24:20
+pay_00175,cust_1132,sub_132,2541.15,fraud_suspected,,1,2026-06-12 01:39:04
+pay_00176,cust_1133,sub_133,1578.42,mandate_revoked,,1,2026-07-22 23:05:27
+pay_00177,cust_1134,sub_134,3577.68,fraud_suspected,,1,2026-08-08 14:10:44
+pay_00178,cust_1135,sub_135,1756.0,insufficient_funds,,1,2026-08-13 09:22:23
+pay_00179,cust_1136,sub_136,2176.85,insufficient_funds,,1,2026-05-25 05:10:11
+pay_00180,cust_1137,sub_137,3173.61,fraud_suspected,,1,2026-07-21 15:58:37
+pay_00181,cust_1138,sub_138,1418.09,card_expired,,1,2026-07-19 21:00:57
+pay_00182,cust_1139,sub_139,3451.53,fraud_suspected,,1,2026-07-31 02:28:22
+pay_00016,cust_1014,sub_14,4588.83,card_expired,,1,2026-06-23 04:16:08
+pay_00017,cust_1014,sub_14,4588.83,card_expired,,2,2026-06-24 23:35:34
+pay_00183,cust_1140,sub_140,4816.74,insufficient_funds,,1,2026-07-19 14:54:19
+pay_00184,cust_1140,sub_140,4816.74,insufficient_funds,,2,2026-07-20 12:54:30
+pay_00185,cust_1140,sub_140,4816.74,insufficient_funds,,3,2026-07-21 07:24:36
+pay_00186,cust_1141,sub_141,3555.54,insufficient_funds,,1,2026-08-18 21:25:17
+pay_00187,cust_1142,sub_142,3934.9,fraud_suspected,,1,2026-08-14 19:47:31
+pay_00188,cust_1143,sub_143,3922.56,fraud_suspected,,1,2026-07-22 19:51:22
+pay_00189,cust_1144,sub_144,1402.01,insufficient_funds,,1,2026-05-28 21:53:08
+pay_00190,cust_1145,sub_145,3301.43,fraud_suspected,,1,2026-07-12 14:02:37
+pay_00191,cust_1146,sub_146,4565.21,insufficient_funds,,1,2026-07-10 23:26:11
+pay_00192,cust_1147,sub_147,4406.01,fraud_suspected,,1,2026-07-05 16:32:58
+pay_00193,cust_1148,sub_148,4586.43,insufficient_funds,,1,2026-06-20 09:47:55
+pay_00194,cust_1149,sub_149,4820.89,insufficient_funds,,1,2026-08-02 07:55:43
+pay_00018,cust_1015,sub_15,4508.55,issuer_timeout,,1,2026-06-30 11:14:08
+pay_00195,cust_1150,sub_150,4841.89,ambiguous_bank_error,Declined by issuer (E1042) - insufficient info from gateway response.,1,2026-06-10 11:05:50
+pay_00196,cust_1150,sub_150,4841.89,ambiguous_bank_error,Payment not completed. Yes Bank returned no further reason.,2,2026-06-12 17:07:29
+pay_00197,cust_1151,sub_151,2027.92,insufficient_funds,,1,2026-05-31 11:06:43
+pay_00198,cust_1151,sub_151,2027.92,insufficient_funds,,2,2026-06-01 15:01:39
+pay_00199,cust_1152,sub_152,4592.23,issuer_timeout,,1,2026-07-23 20:04:40
+pay_00200,cust_1152,sub_152,4592.23,issuer_timeout,,2,2026-07-25 22:19:41
+pay_00201,cust_1153,sub_153,4741.06,insufficient_funds,,1,2026-07-13 15:07:06
+pay_00202,cust_1154,sub_154,2064.5,issuer_timeout,,1,2026-07-04 21:47:44
+pay_00203,cust_1155,sub_155,3761.89,card_expired,,1,2026-08-01 13:41:06
+pay_00204,cust_1155,sub_155,3761.89,card_expired,,2,2026-08-03 19:26:17
+pay_00205,cust_1155,sub_155,3761.89,card_expired,,3,2026-08-04 22:23:13
+pay_00206,cust_1156,sub_156,4305.16,ambiguous_bank_error,"Gateway timeout while contacting SBI - transaction status unknown, may have partially processed.",1,2026-08-08 21:23:34
+pay_00207,cust_1157,sub_157,4846.39,insufficient_funds,,1,2026-06-23 02:42:13
+pay_00208,cust_1158,sub_158,301.52,issuer_timeout,,1,2026-07-09 07:08:50
+pay_00209,cust_1158,sub_158,301.52,issuer_timeout,,2,2026-07-12 06:04:53
+pay_00210,cust_1159,sub_159,1235.57,insufficient_funds,,1,2026-07-22 10:49:09
+pay_00211,cust_1159,sub_159,1235.57,insufficient_funds,,2,2026-07-25 00:17:54
+pay_00019,cust_1016,sub_16,425.16,insufficient_funds,,1,2026-08-06 04:40:10
+pay_00212,cust_1160,sub_160,2792.03,ambiguous_bank_error,"ICICI Bank: transaction declined, code E1042. contact bank.",1,2026-07-29 03:42:55
+pay_00213,cust_1160,sub_160,2792.03,ambiguous_bank_error,"ICICI Bank: transaction declined, code TXN_FAIL_09. contact bank.",2,2026-07-31 07:37:20
+pay_00214,cust_1160,sub_160,2792.03,ambiguous_bank_error,"NPCI/HDFC: mandate execution failed, reason unspecified, retry advised after 24h.",3,2026-08-01 04:47:26
+pay_00215,cust_1161,sub_161,3933.48,card_expired,,1,2026-06-16 18:06:28
+pay_00216,cust_1161,sub_161,3933.48,card_expired,,2,2026-06-19 07:39:02
+pay_00217,cust_1162,sub_162,3361.73,ambiguous_bank_error,"Axis Bank: transaction declined, code AUTH_TIMEOUT_12. contact bank.",1,2026-07-13 14:41:01
+pay_00218,cust_1162,sub_162,3361.73,ambiguous_bank_error,Declined by issuer (BNK-441) - insufficient info from gateway response.,2,2026-07-15 13:43:06
+pay_00219,cust_1163,sub_163,586.79,insufficient_funds,,1,2026-06-04 04:04:08
+pay_00220,cust_1163,sub_163,586.79,insufficient_funds,,2,2026-06-06 19:40:37
+pay_00221,cust_1163,sub_163,586.79,insufficient_funds,,3,2026-06-09 22:20:24
+pay_00222,cust_1164,sub_164,2376.83,issuer_timeout,,1,2026-06-04 13:06:50
+pay_00223,cust_1164,sub_164,2376.83,issuer_timeout,,2,2026-06-07 03:54:41
+pay_00224,cust_1164,sub_164,2376.83,issuer_timeout,,3,2026-06-10 17:46:55
+pay_00225,cust_1165,sub_165,1295.77,card_expired,,1,2026-07-08 14:25:26
+pay_00226,cust_1166,sub_166,1699.11,insufficient_funds,,1,2026-07-19 11:09:43
+pay_00227,cust_1166,sub_166,1699.11,insufficient_funds,,2,2026-07-21 02:05:53
+pay_00228,cust_1167,sub_167,3773.03,card_expired,,1,2026-07-04 04:35:03
+pay_00229,cust_1168,sub_168,1781.3,issuer_timeout,,1,2026-08-05 13:22:55
+pay_00230,cust_1169,sub_169,4365.84,mandate_revoked,,1,2026-08-14 09:38:19
+pay_00020,cust_1017,sub_17,503.93,card_expired,,1,2026-07-03 19:29:33
+pay_00021,cust_1017,sub_17,503.93,card_expired,,2,2026-07-05 17:55:00
+pay_00231,cust_1170,sub_170,1220.15,issuer_timeout,,1,2026-05-28 15:14:54
+pay_00232,cust_1171,sub_171,1963.29,fraud_suspected,,1,2026-07-16 18:14:51
+pay_00233,cust_1172,sub_172,3882.68,issuer_timeout,,1,2026-06-02 19:43:41
+pay_00234,cust_1173,sub_173,3356.59,issuer_timeout,,1,2026-07-17 00:11:17
+pay_00235,cust_1174,sub_174,1830.16,insufficient_funds,,1,2026-08-20 05:55:09
+pay_00236,cust_1174,sub_174,1830.16,insufficient_funds,,2,2026-08-23 21:25:04
+pay_00237,cust_1175,sub_175,346.15,issuer_timeout,,1,2026-06-14 06:24:26
+pay_00238,cust_1176,sub_176,1694.86,insufficient_funds,,1,2026-07-10 18:38:05
+pay_00239,cust_1177,sub_177,3820.29,insufficient_funds,,1,2026-08-14 21:05:17
+pay_00240,cust_1177,sub_177,3820.29,insufficient_funds,,2,2026-08-16 21:27:31
+pay_00241,cust_1178,sub_178,1233.73,card_expired,,1,2026-06-16 03:22:27
+pay_00242,cust_1178,sub_178,1233.73,card_expired,,2,2026-06-17 09:43:43
+pay_00243,cust_1179,sub_179,1679.41,card_expired,,1,2026-07-23 12:38:03
+pay_00022,cust_1018,sub_18,4445.98,insufficient_funds,,1,2026-07-17 20:21:07
+pay_00023,cust_1018,sub_18,4445.98,insufficient_funds,,2,2026-07-19 13:10:29
+pay_00244,cust_1180,sub_180,1212.92,insufficient_funds,,1,2026-08-03 08:18:20
+pay_00245,cust_1181,sub_181,2266.14,card_expired,,1,2026-08-04 12:34:45
+pay_00246,cust_1182,sub_182,3405.63,issuer_timeout,,1,2026-07-06 02:25:55
+pay_00247,cust_1183,sub_183,2405.82,card_expired,,1,2026-08-11 10:36:27
+pay_00248,cust_1183,sub_183,2405.82,card_expired,,2,2026-08-14 12:45:40
+pay_00249,cust_1184,sub_184,299.11,insufficient_funds,,1,2026-07-10 05:51:39
+pay_00250,cust_1185,sub_185,1935.89,mandate_revoked,,1,2026-06-26 03:15:27
+pay_00251,cust_1186,sub_186,2098.68,card_expired,,1,2026-07-12 23:21:14
+pay_00252,cust_1187,sub_187,2649.32,insufficient_funds,,1,2026-08-06 16:32:12
+pay_00253,cust_1188,sub_188,3690.42,card_expired,,1,2026-05-30 04:15:06
+pay_00254,cust_1188,sub_188,3690.42,card_expired,,2,2026-05-31 08:12:11
+pay_00255,cust_1188,sub_188,3690.42,card_expired,,3,2026-06-03 04:48:48
+pay_00256,cust_1189,sub_189,3908.67,insufficient_funds,,1,2026-06-18 14:48:36
+pay_00257,cust_1189,sub_189,3908.67,insufficient_funds,,2,2026-06-21 14:43:59
+pay_00024,cust_1019,sub_19,3653.47,mandate_revoked,,1,2026-06-17 05:32:58
+pay_00258,cust_1190,sub_190,4934.35,issuer_timeout,,1,2026-07-10 20:20:09
+pay_00259,cust_1190,sub_190,4934.35,issuer_timeout,,2,2026-07-12 02:30:28
+pay_00260,cust_1191,sub_191,3037.81,fraud_suspected,,1,2026-07-06 16:04:19
+pay_00261,cust_1192,sub_192,1968.94,insufficient_funds,,1,2026-07-15 02:41:55
+pay_00262,cust_1193,sub_193,3050.58,insufficient_funds,,1,2026-07-02 14:37:35
+pay_00263,cust_1193,sub_193,3050.58,insufficient_funds,,2,2026-07-05 01:28:58
+pay_00264,cust_1193,sub_193,3050.58,insufficient_funds,,3,2026-07-08 20:12:20
+pay_00265,cust_1194,sub_194,4796.07,card_expired,,1,2026-06-24 03:51:57
+pay_00266,cust_1194,sub_194,4796.07,card_expired,,2,2026-06-26 22:05:32
+pay_00267,cust_1195,sub_195,3595.58,insufficient_funds,,1,2026-06-25 16:33:39
+pay_00268,cust_1195,sub_195,3595.58,insufficient_funds,,2,2026-06-26 11:23:58
+pay_00269,cust_1196,sub_196,1823.16,card_expired,,1,2026-06-05 01:50:40
+pay_00270,cust_1197,sub_197,652.63,insufficient_funds,,1,2026-05-26 12:18:16
+pay_00271,cust_1197,sub_197,652.63,insufficient_funds,,2,2026-05-29 21:58:38
+pay_00272,cust_1198,sub_198,2996.15,insufficient_funds,,1,2026-08-02 11:19:41
+pay_00273,cust_1198,sub_198,2996.15,insufficient_funds,,2,2026-08-05 21:25:08
+pay_00274,cust_1199,sub_199,1684.99,ambiguous_bank_error,"DC-77: soft decline, customer action may be required but not specified by issuer.",1,2026-07-03 20:50:21
+pay_00003,cust_1002,sub_2,342.03,card_expired,,1,2026-07-24 07:32:38
+pay_00025,cust_1020,sub_20,4239.01,issuer_timeout,,1,2026-06-17 19:12:09
+pay_00275,cust_1200,sub_200,3745.12,fraud_suspected,,1,2026-05-25 16:05:41
+pay_00276,cust_1201,sub_201,286.51,card_expired,,1,2026-07-12 05:13:21
+pay_00277,cust_1201,sub_201,286.51,card_expired,,2,2026-07-14 06:14:08
+pay_00278,cust_1202,sub_202,3981.98,insufficient_funds,,1,2026-06-17 17:53:47
+pay_00279,cust_1203,sub_203,1815.47,insufficient_funds,,1,2026-06-02 04:38:24
+pay_00280,cust_1203,sub_203,1815.47,insufficient_funds,,2,2026-06-03 05:11:53
+pay_00281,cust_1204,sub_204,4531.75,issuer_timeout,,1,2026-06-25 01:26:23
+pay_00282,cust_1204,sub_204,4531.75,issuer_timeout,,2,2026-06-28 23:15:28
+pay_00283,cust_1205,sub_205,3961.24,mandate_revoked,,1,2026-07-22 17:15:19
+pay_00284,cust_1206,sub_206,4538.08,fraud_suspected,,1,2026-07-27 11:43:36
+pay_00285,cust_1207,sub_207,1551.5,card_expired,,1,2026-07-03 16:33:26
+pay_00286,cust_1207,sub_207,1551.5,card_expired,,2,2026-07-04 06:51:38
+pay_00287,cust_1207,sub_207,1551.5,card_expired,,3,2026-07-05 08:03:41
+pay_00288,cust_1208,sub_208,4683.61,card_expired,,1,2026-06-15 03:18:05
+pay_00289,cust_1209,sub_209,4544.47,insufficient_funds,,1,2026-08-02 13:05:58
+pay_00290,cust_1209,sub_209,4544.47,insufficient_funds,,2,2026-08-03 14:56:22
+pay_00026,cust_1021,sub_21,4775.8,insufficient_funds,,1,2026-06-14 00:38:20
+pay_00291,cust_1210,sub_210,2101.98,card_expired,,1,2026-07-04 07:24:05
+pay_00292,cust_1210,sub_210,2101.98,card_expired,,2,2026-07-06 07:01:20
+pay_00293,cust_1210,sub_210,2101.98,card_expired,,3,2026-07-07 22:41:21
+pay_00294,cust_1211,sub_211,1576.02,insufficient_funds,,1,2026-06-21 22:53:08
+pay_00295,cust_1211,sub_211,1576.02,insufficient_funds,,2,2026-06-24 15:28:39
+pay_00296,cust_1212,sub_212,1427.43,insufficient_funds,,1,2026-08-01 17:46:38
+pay_00297,cust_1213,sub_213,1581.89,insufficient_funds,,1,2026-07-13 03:03:15
+pay_00298,cust_1214,sub_214,2393.15,fraud_suspected,,1,2026-08-06 15:38:34
+pay_00299,cust_1215,sub_215,1360.3,card_expired,,1,2026-08-02 09:27:00
+pay_00300,cust_1216,sub_216,2198.52,insufficient_funds,,1,2026-05-27 21:05:33
+pay_00301,cust_1216,sub_216,2198.52,insufficient_funds,,2,2026-05-29 02:33:34
+pay_00302,cust_1217,sub_217,2858.93,ambiguous_bank_error,Declined by issuer (TXN_FAIL_09) - insufficient info from gateway response.,1,2026-07-02 15:02:40
+pay_00303,cust_1218,sub_218,3983.9,insufficient_funds,,1,2026-07-07 07:46:42
+pay_00304,cust_1219,sub_219,3727.9,fraud_suspected,,1,2026-07-09 04:02:22
+pay_00027,cust_1022,sub_22,1941.31,insufficient_funds,,1,2026-07-12 07:03:15
+pay_00305,cust_1220,sub_220,1039.43,fraud_suspected,,1,2026-05-25 14:44:30
+pay_00306,cust_1221,sub_221,501.88,fraud_suspected,,1,2026-06-23 01:18:12
+pay_00307,cust_1222,sub_222,400.15,insufficient_funds,,1,2026-07-12 16:25:52
+pay_00308,cust_1223,sub_223,3814.8,insufficient_funds,,1,2026-07-27 09:22:55
+pay_00309,cust_1224,sub_224,1792.24,fraud_suspected,,1,2026-08-05 11:27:56
+pay_00310,cust_1225,sub_225,4790.1,card_expired,,1,2026-07-08 05:31:44
+pay_00311,cust_1226,sub_226,2691.52,ambiguous_bank_error,Declined by issuer (ERR203) - insufficient info from gateway response.,1,2026-08-10 23:27:05
+pay_00312,cust_1227,sub_227,1609.08,insufficient_funds,,1,2026-08-07 02:20:42
+pay_00313,cust_1227,sub_227,1609.08,insufficient_funds,,2,2026-08-09 09:28:38
+pay_00314,cust_1227,sub_227,1609.08,insufficient_funds,,3,2026-08-12 13:10:44
+pay_00315,cust_1228,sub_228,3687.71,card_expired,,1,2026-07-06 19:27:17
+pay_00316,cust_1229,sub_229,474.32,fraud_suspected,,1,2026-05-27 20:25:23
+pay_00028,cust_1023,sub_23,610.14,ambiguous_bank_error,"DC-77: soft decline, customer action may be required but not specified by issuer.",1,2026-06-19 02:48:34
+pay_00029,cust_1023,sub_23,610.14,ambiguous_bank_error,Txn faild - TXN_FAIL_09. Pls retyr after sometime or contct suport.,2,2026-06-20 21:30:35
+pay_00317,cust_1230,sub_230,966.94,mandate_revoked,,1,2026-08-17 04:54:38
+pay_00318,cust_1231,sub_231,804.9,card_expired,,1,2026-07-21 20:23:23
+pay_00319,cust_1231,sub_231,804.9,card_expired,,2,2026-07-23 18:02:38
+pay_00320,cust_1232,sub_232,1979.63,card_expired,,1,2026-06-25 02:36:08
+pay_00321,cust_1233,sub_233,3316.89,card_expired,,1,2026-07-20 03:01:47
+pay_00322,cust_1234,sub_234,4584.0,card_expired,,1,2026-08-05 08:49:16
+pay_00323,cust_1235,sub_235,3136.01,insufficient_funds,,1,2026-06-19 06:07:08
+pay_00324,cust_1235,sub_235,3136.01,insufficient_funds,,2,2026-06-20 14:11:57
+pay_00325,cust_1236,sub_236,4089.46,ambiguous_bank_error,"Kotak Mahindra: transaction declined, code ERR203. contact bank.",1,2026-07-11 21:22:45
+pay_00326,cust_1236,sub_236,4089.46,ambiguous_bank_error,"Gateway timeout while contacting Yes Bank - transaction status unknown, may have partially processed.",2,2026-07-13 09:54:10
+pay_00327,cust_1237,sub_237,4008.74,issuer_timeout,,1,2026-06-16 07:07:12
+pay_00328,cust_1237,sub_237,4008.74,issuer_timeout,,2,2026-06-17 07:50:31
+pay_00329,cust_1237,sub_237,4008.74,issuer_timeout,,3,2026-06-18 11:35:36
+pay_00330,cust_1238,sub_238,2846.91,fraud_suspected,,1,2026-06-03 02:04:19
+pay_00331,cust_1239,sub_239,2496.59,mandate_revoked,,1,2026-06-29 13:52:36
+pay_00030,cust_1024,sub_24,4827.94,issuer_timeout,,1,2026-06-12 23:44:12
+pay_00332,cust_1240,sub_240,3282.23,ambiguous_bank_error,Payment not completed. ICICI Bank returned no further reason.,1,2026-06-24 14:43:33
+pay_00333,cust_1241,sub_241,3270.01,fraud_suspected,,1,2026-07-28 04:27:32
+pay_00334,cust_1242,sub_242,794.97,insufficient_funds,,1,2026-08-01 09:10:10
+pay_00335,cust_1242,sub_242,794.97,insufficient_funds,,2,2026-08-03 22:14:22
+pay_00336,cust_1242,sub_242,794.97,insufficient_funds,,3,2026-08-06 09:54:05
+pay_00337,cust_1243,sub_243,2843.04,issuer_timeout,,1,2026-08-04 20:19:39
+pay_00338,cust_1244,sub_244,1008.45,card_expired,,1,2026-06-07 04:10:42
+pay_00339,cust_1245,sub_245,1819.57,fraud_suspected,,1,2026-06-09 01:52:55
+pay_00340,cust_1246,sub_246,3277.98,insufficient_funds,,1,2026-06-08 08:41:13
+pay_00341,cust_1247,sub_247,3266.16,card_expired,,1,2026-06-18 20:34:18
+pay_00342,cust_1247,sub_247,3266.16,card_expired,,2,2026-06-21 09:30:15
+pay_00343,cust_1248,sub_248,1626.68,mandate_revoked,,1,2026-08-11 22:03:10
+pay_00344,cust_1249,sub_249,1178.31,card_expired,,1,2026-06-04 04:20:55
+pay_00031,cust_1025,sub_25,3423.1,card_expired,,1,2026-07-04 14:57:33
+pay_00032,cust_1025,sub_25,3423.1,card_expired,,2,2026-07-06 03:15:14
+pay_00345,cust_1250,sub_250,4330.73,mandate_revoked,,1,2026-06-30 04:48:23
+pay_00346,cust_1251,sub_251,1359.34,insufficient_funds,,1,2026-08-05 08:28:15
+pay_00347,cust_1252,sub_252,4736.85,insufficient_funds,,1,2026-06-03 13:15:55
+pay_00348,cust_1253,sub_253,4681.01,fraud_suspected,,1,2026-07-11 06:48:10
+pay_00349,cust_1254,sub_254,2593.05,card_expired,,1,2026-07-12 15:01:05
+pay_00350,cust_1255,sub_255,4839.1,card_expired,,1,2026-07-24 18:22:03
+pay_00351,cust_1255,sub_255,4839.1,card_expired,,2,2026-07-25 09:31:38
+pay_00352,cust_1255,sub_255,4839.1,card_expired,,3,2026-07-28 21:30:18
+pay_00353,cust_1256,sub_256,2267.45,fraud_suspected,,1,2026-07-18 23:23:48
+pay_00354,cust_1257,sub_257,444.56,insufficient_funds,,1,2026-06-10 06:23:35
+pay_00355,cust_1258,sub_258,2360.7,card_expired,,1,2026-06-11 08:52:39
+pay_00356,cust_1259,sub_259,4879.4,insufficient_funds,,1,2026-07-01 11:50:21
+pay_00357,cust_1259,sub_259,4879.4,insufficient_funds,,2,2026-07-04 11:48:09
+pay_00033,cust_1026,sub_26,2857.82,insufficient_funds,,1,2026-06-06 07:00:04
+pay_00358,cust_1260,sub_260,2599.37,card_expired,,1,2026-08-15 01:08:45
+pay_00359,cust_1261,sub_261,2392.55,card_expired,,1,2026-06-04 16:08:20
+pay_00360,cust_1262,sub_262,2085.18,insufficient_funds,,1,2026-06-03 23:53:19
+pay_00361,cust_1262,sub_262,2085.18,insufficient_funds,,2,2026-06-06 10:32:53
+pay_00362,cust_1262,sub_262,2085.18,insufficient_funds,,3,2026-06-09 17:31:45
+pay_00363,cust_1263,sub_263,278.86,card_expired,,1,2026-07-09 21:07:26
+pay_00364,cust_1264,sub_264,3680.56,fraud_suspected,,1,2026-06-01 00:38:30
+pay_00365,cust_1265,sub_265,4864.87,issuer_timeout,,1,2026-06-07 18:14:46
+pay_00366,cust_1266,sub_266,2715.32,card_expired,,1,2026-06-02 12:09:52
+pay_00367,cust_1267,sub_267,4750.38,insufficient_funds,,1,2026-08-06 06:01:28
+pay_00368,cust_1267,sub_267,4750.38,insufficient_funds,,2,2026-08-08 13:09:26
+pay_00369,cust_1268,sub_268,3918.87,card_expired,,1,2026-06-21 23:46:03
+pay_00370,cust_1268,sub_268,3918.87,card_expired,,2,2026-06-24 04:33:13
+pay_00371,cust_1269,sub_269,2495.18,ambiguous_bank_error,"NPCI/SBI: mandate execution failed, reason unspecified, retry advised after 24h.",1,2026-07-03 10:11:29
+pay_00034,cust_1027,sub_27,522.52,insufficient_funds,,1,2026-08-16 10:04:32
+pay_00035,cust_1027,sub_27,522.52,insufficient_funds,,2,2026-08-17 08:42:31
+pay_00372,cust_1270,sub_270,4363.74,mandate_revoked,,1,2026-05-25 20:51:44
+pay_00373,cust_1271,sub_271,4794.22,card_expired,,1,2026-07-16 17:19:14
+pay_00374,cust_1272,sub_272,3900.64,ambiguous_bank_error,Payment not completed. Axis Bank returned no further reason.,1,2026-07-25 22:45:31
+pay_00375,cust_1272,sub_272,3900.64,ambiguous_bank_error,"BNK-441: soft decline, customer action may be required but not specified by issuer.",2,2026-07-27 17:59:59
+pay_00376,cust_1272,sub_272,3900.64,ambiguous_bank_error,"Gateway timeout while contacting Kotak Mahindra - transaction status unknown, may have partially processed.",3,2026-07-29 09:07:36
+pay_00377,cust_1273,sub_273,4127.21,ambiguous_bank_error,"Gateway timeout while contacting HDFC Bank - transaction status unknown, may have partially processed.",1,2026-08-02 09:02:18
+pay_00378,cust_1274,sub_274,1429.93,card_expired,,1,2026-06-20 06:12:52
+pay_00379,cust_1275,sub_275,3540.62,ambiguous_bank_error,"NPCI/ICICI: mandate execution failed, reason unspecified, retry advised after 24h.",1,2026-08-03 03:39:47
+pay_00380,cust_1276,sub_276,2748.0,mandate_revoked,,1,2026-05-31 07:03:06
+pay_00381,cust_1277,sub_277,681.62,mandate_revoked,,1,2026-08-03 00:35:59
+pay_00382,cust_1278,sub_278,4426.11,issuer_timeout,,1,2026-06-21 15:41:12
+pay_00383,cust_1279,sub_279,1568.99,insufficient_funds,,1,2026-08-13 02:41:36
+pay_00384,cust_1279,sub_279,1568.99,insufficient_funds,,2,2026-08-14 17:47:46
+pay_00036,cust_1028,sub_28,4689.47,insufficient_funds,,1,2026-06-08 18:30:15
+pay_00385,cust_1280,sub_280,4622.06,insufficient_funds,,1,2026-06-28 05:59:58
+pay_00386,cust_1280,sub_280,4622.06,insufficient_funds,,2,2026-06-29 12:50:31
+pay_00387,cust_1281,sub_281,4386.0,mandate_revoked,,1,2026-07-14 01:00:19
+pay_00388,cust_1282,sub_282,4917.37,insufficient_funds,,1,2026-07-15 14:41:34
+pay_00389,cust_1283,sub_283,843.16,fraud_suspected,,1,2026-06-17 14:17:12
+pay_00390,cust_1284,sub_284,3708.37,insufficient_funds,,1,2026-05-30 08:45:11
+pay_00391,cust_1284,sub_284,3708.37,insufficient_funds,,2,2026-05-31 23:21:50
+pay_00392,cust_1285,sub_285,1126.17,mandate_revoked,,1,2026-06-03 20:57:25
+pay_00393,cust_1286,sub_286,615.34,card_expired,,1,2026-05-27 03:11:08
+pay_00394,cust_1286,sub_286,615.34,card_expired,,2,2026-05-29 10:59:15
+pay_00395,cust_1287,sub_287,2343.33,card_expired,,1,2026-07-17 10:19:37
+pay_00396,cust_1288,sub_288,3336.68,insufficient_funds,,1,2026-07-21 01:42:07
+pay_00397,cust_1288,sub_288,3336.68,insufficient_funds,,2,2026-07-23 09:10:25
+pay_00398,cust_1289,sub_289,4460.45,ambiguous_bank_error,Payment not completed. SBI returned no further reason.,1,2026-07-12 22:07:40
+pay_00399,cust_1289,sub_289,4460.45,ambiguous_bank_error,Declined by issuer (DC-77) - insufficient info from gateway response.,2,2026-07-15 07:14:08
+pay_00037,cust_1029,sub_29,1112.97,fraud_suspected,,1,2026-08-08 21:27:22
+pay_00400,cust_1290,sub_290,1992.4,ambiguous_bank_error,"BNK-441: soft decline, customer action may be required but not specified by issuer.",1,2026-06-11 15:48:34
+pay_00401,cust_1291,sub_291,3464.64,fraud_suspected,,1,2026-06-05 02:33:28
+pay_00402,cust_1292,sub_292,4601.77,card_expired,,1,2026-08-06 01:53:35
+pay_00403,cust_1293,sub_293,2774.97,insufficient_funds,,1,2026-07-30 10:54:33
+pay_00404,cust_1293,sub_293,2774.97,insufficient_funds,,2,2026-08-01 03:43:13
+pay_00405,cust_1293,sub_293,2774.97,insufficient_funds,,3,2026-08-04 18:31:05
+pay_00406,cust_1294,sub_294,466.05,card_expired,,1,2026-08-04 16:26:29
+pay_00407,cust_1294,sub_294,466.05,card_expired,,2,2026-08-07 01:35:29
+pay_00408,cust_1295,sub_295,303.5,insufficient_funds,,1,2026-07-19 00:47:13
+pay_00409,cust_1295,sub_295,303.5,insufficient_funds,,2,2026-07-22 02:02:27
+pay_00410,cust_1296,sub_296,4970.79,insufficient_funds,,1,2026-08-12 15:02:18
+pay_00411,cust_1297,sub_297,3874.97,fraud_suspected,,1,2026-05-30 13:23:57
+pay_00412,cust_1298,sub_298,4551.48,fraud_suspected,,1,2026-07-03 02:43:42
+pay_00413,cust_1299,sub_299,4328.38,insufficient_funds,,1,2026-08-05 05:34:25
+pay_00414,cust_1299,sub_299,4328.38,insufficient_funds,,2,2026-08-08 04:46:14
+pay_00004,cust_1003,sub_3,3318.45,insufficient_funds,,1,2026-06-12 13:14:28
+pay_00038,cust_1030,sub_30,3698.56,card_expired,,1,2026-05-26 20:41:06
+pay_00415,cust_1300,sub_300,4895.76,mandate_revoked,,1,2026-06-22 21:46:34
+pay_00416,cust_1301,sub_301,1301.39,card_expired,,1,2026-06-23 11:09:17
+pay_00417,cust_1302,sub_302,3873.35,fraud_suspected,,1,2026-08-16 21:26:39
+pay_00418,cust_1303,sub_303,274.1,fraud_suspected,,1,2026-07-25 02:06:38
+pay_00419,cust_1304,sub_304,3574.77,issuer_timeout,,1,2026-08-14 07:47:02
+pay_00420,cust_1305,sub_305,1241.89,insufficient_funds,,1,2026-08-13 04:32:18
+pay_00421,cust_1306,sub_306,2964.33,ambiguous_bank_error,"TXN_FAIL_09: soft decline, customer action may be required but not specified by issuer.",1,2026-06-08 19:49:43
+pay_00422,cust_1307,sub_307,4930.34,fraud_suspected,,1,2026-06-15 07:26:19
+pay_00423,cust_1308,sub_308,3039.0,issuer_timeout,,1,2026-07-29 20:43:27
+pay_00424,cust_1309,sub_309,1852.19,insufficient_funds,,1,2026-05-30 21:24:50
+pay_00039,cust_1031,sub_31,4041.84,mandate_revoked,,1,2026-08-07 07:12:12
+pay_00425,cust_1310,sub_310,2158.64,mandate_revoked,,1,2026-07-13 12:11:48
+pay_00426,cust_1311,sub_311,1280.65,insufficient_funds,,1,2026-08-02 14:58:03
+pay_00427,cust_1312,sub_312,2873.98,ambiguous_bank_error,Txn faild - TXN_FAIL_09. Pls retyr after sometime or contct suport.,1,2026-08-03 12:15:16
+pay_00428,cust_1313,sub_313,4265.24,ambiguous_bank_error,Txn faild - E1042. Pls retyr after sometime or contct suport.,1,2026-08-09 17:46:53
+pay_00429,cust_1313,sub_313,4265.24,ambiguous_bank_error,"NPCI/HDFC: mandate execution failed, reason unspecified, retry advised after 24h.",2,2026-08-11 12:43:38
+pay_00430,cust_1314,sub_314,3855.14,insufficient_funds,,1,2026-05-27 17:13:30
+pay_00431,cust_1314,sub_314,3855.14,insufficient_funds,,2,2026-05-28 10:19:58
+pay_00432,cust_1315,sub_315,4816.97,ambiguous_bank_error,Txn faild - BNK-441. Pls retyr after sometime or contct suport.,1,2026-08-05 23:48:30
+pay_00433,cust_1316,sub_316,4591.61,insufficient_funds,,1,2026-06-11 10:49:18
+pay_00434,cust_1316,sub_316,4591.61,insufficient_funds,,2,2026-06-13 14:34:41
+pay_00435,cust_1317,sub_317,2660.52,insufficient_funds,,1,2026-06-18 14:06:51
+pay_00436,cust_1318,sub_318,4229.71,card_expired,,1,2026-07-25 11:20:26
+pay_00437,cust_1318,sub_318,4229.71,card_expired,,2,2026-07-26 18:55:14
+pay_00438,cust_1318,sub_318,4229.71,card_expired,,3,2026-07-29 04:01:16
+pay_00439,cust_1319,sub_319,3655.06,issuer_timeout,,1,2026-07-14 04:12:21
+pay_00040,cust_1032,sub_32,1079.74,insufficient_funds,,1,2026-06-22 07:55:59
+pay_00440,cust_1320,sub_320,1378.5,issuer_timeout,,1,2026-06-11 20:43:21
+pay_00441,cust_1321,sub_321,4838.24,fraud_suspected,,1,2026-05-30 23:31:29
+pay_00442,cust_1322,sub_322,1011.48,fraud_suspected,,1,2026-06-12 15:11:58
+pay_00443,cust_1323,sub_323,4793.74,ambiguous_bank_error,"IDFC First: transaction declined, code BNK-441. contact bank.",1,2026-06-14 01:53:54
+pay_00444,cust_1323,sub_323,4793.74,ambiguous_bank_error,"BNK-441: soft decline, customer action may be required but not specified by issuer.",2,2026-06-15 00:26:08
+pay_00445,cust_1324,sub_324,242.88,mandate_revoked,,1,2026-06-17 14:23:03
+pay_00446,cust_1325,sub_325,3158.29,mandate_revoked,,1,2026-06-20 21:31:01
+pay_00447,cust_1326,sub_326,255.88,issuer_timeout,,1,2026-06-14 23:17:34
+pay_00448,cust_1327,sub_327,4102.15,insufficient_funds,,1,2026-05-26 13:51:58
+pay_00449,cust_1327,sub_327,4102.15,insufficient_funds,,2,2026-05-27 03:58:06
+pay_00450,cust_1327,sub_327,4102.15,insufficient_funds,,3,2026-05-30 04:15:12
+pay_00451,cust_1328,sub_328,1900.32,insufficient_funds,,1,2026-07-01 02:23:25
+pay_00452,cust_1328,sub_328,1900.32,insufficient_funds,,2,2026-07-03 18:15:44
+pay_00453,cust_1329,sub_329,4268.76,mandate_revoked,,1,2026-05-29 20:48:02
+pay_00041,cust_1033,sub_33,4307.64,fraud_suspected,,1,2026-08-08 01:41:34
+pay_00454,cust_1330,sub_330,2851.97,card_expired,,1,2026-08-13 20:00:44
+pay_00455,cust_1331,sub_331,2281.77,card_expired,,1,2026-07-09 18:54:06
+pay_00456,cust_1332,sub_332,1301.88,ambiguous_bank_error,"Yes Bank: transaction declined, code TXN_FAIL_09. contact bank.",1,2026-06-09 15:17:02
+pay_00457,cust_1332,sub_332,1301.88,ambiguous_bank_error,Txn faild - AUTH_TIMEOUT_12. Pls retyr after sometime or contct suport.,2,2026-06-12 18:42:02
+pay_00458,cust_1333,sub_333,3016.77,ambiguous_bank_error,"NPCI/ICICI: mandate execution failed, reason unspecified, retry advised after 24h.",1,2026-07-01 02:19:10
+pay_00459,cust_1334,sub_334,3448.77,fraud_suspected,,1,2026-06-12 10:24:48
+pay_00460,cust_1335,sub_335,3507.69,fraud_suspected,,1,2026-08-10 16:47:22
+pay_00461,cust_1336,sub_336,4224.64,card_expired,,1,2026-07-08 19:49:39
+pay_00462,cust_1337,sub_337,3912.06,card_expired,,1,2026-08-17 20:17:50
+pay_00463,cust_1337,sub_337,3912.06,card_expired,,2,2026-08-19 15:14:22
+pay_00464,cust_1337,sub_337,3912.06,card_expired,,3,2026-08-22 12:27:11
+pay_00465,cust_1338,sub_338,610.33,issuer_timeout,,1,2026-06-02 09:51:15
+pay_00466,cust_1338,sub_338,610.33,issuer_timeout,,2,2026-06-05 02:05:17
+pay_00467,cust_1339,sub_339,3241.72,mandate_revoked,,1,2026-07-02 10:23:06
+pay_00042,cust_1034,sub_34,4645.56,ambiguous_bank_error,Declined by issuer (DC-77) - insufficient info from gateway response.,1,2026-07-21 05:26:31
+pay_00043,cust_1034,sub_34,4645.56,ambiguous_bank_error,"Axis Bank: transaction declined, code TXN_FAIL_09. contact bank.",2,2026-07-23 01:10:24
+pay_00468,cust_1340,sub_340,2333.73,ambiguous_bank_error,Txn faild - RC=51. Pls retyr after sometime or contct suport.,1,2026-07-17 03:08:05
+pay_00469,cust_1341,sub_341,2157.61,issuer_timeout,,1,2026-08-17 02:22:35
+pay_00470,cust_1342,sub_342,1756.27,issuer_timeout,,1,2026-07-02 00:18:26
+pay_00471,cust_1343,sub_343,4524.45,insufficient_funds,,1,2026-07-20 18:33:10
+pay_00472,cust_1344,sub_344,1489.81,insufficient_funds,,1,2026-07-17 15:09:04
+pay_00473,cust_1344,sub_344,1489.81,insufficient_funds,,2,2026-07-18 13:17:26
+pay_00474,cust_1345,sub_345,1932.4,fraud_suspected,,1,2026-07-20 23:40:31
+pay_00475,cust_1346,sub_346,712.47,insufficient_funds,,1,2026-07-13 00:25:21
+pay_00476,cust_1347,sub_347,4337.55,card_expired,,1,2026-06-25 10:27:52
+pay_00477,cust_1347,sub_347,4337.55,card_expired,,2,2026-06-28 19:08:19
+pay_00478,cust_1348,sub_348,1163.09,ambiguous_bank_error,Payment not completed. Yes Bank returned no further reason.,1,2026-07-11 05:25:20
+pay_00479,cust_1349,sub_349,2963.22,card_expired,,1,2026-07-20 10:24:17
+pay_00480,cust_1349,sub_349,2963.22,card_expired,,2,2026-07-22 11:07:59
+pay_00044,cust_1035,sub_35,1568.2,fraud_suspected,,1,2026-06-10 21:45:31
+pay_00481,cust_1350,sub_350,2818.02,issuer_timeout,,1,2026-05-25 17:01:46
+pay_00045,cust_1036,sub_36,4848.8,insufficient_funds,,1,2026-06-07 23:34:03
+pay_00046,cust_1037,sub_37,3003.05,insufficient_funds,,1,2026-06-17 16:10:03
+pay_00047,cust_1037,sub_37,3003.05,insufficient_funds,,2,2026-06-20 02:54:11
+pay_00048,cust_1038,sub_38,4335.73,insufficient_funds,,1,2026-06-30 03:56:36
+pay_00049,cust_1039,sub_39,3172.03,issuer_timeout,,1,2026-06-28 21:37:36
+pay_00005,cust_1004,sub_4,230.19,fraud_suspected,,1,2026-07-31 22:27:21
+pay_00050,cust_1040,sub_40,1179.44,ambiguous_bank_error,Txn faild - BNK-441. Pls retyr after sometime or contct suport.,1,2026-07-11 07:16:25
+pay_00051,cust_1041,sub_41,4658.29,card_expired,,1,2026-08-11 00:29:39
+pay_00052,cust_1041,sub_41,4658.29,card_expired,,2,2026-08-14 03:04:34
+pay_00053,cust_1042,sub_42,4678.65,insufficient_funds,,1,2026-08-12 07:23:18
+pay_00054,cust_1043,sub_43,3575.99,fraud_suspected,,1,2026-06-03 20:33:00
+pay_00055,cust_1044,sub_44,4671.43,issuer_timeout,,1,2026-08-07 04:16:07
+pay_00056,cust_1044,sub_44,4671.43,issuer_timeout,,2,2026-08-08 23:35:09
+pay_00057,cust_1045,sub_45,3643.54,issuer_timeout,,1,2026-07-25 21:40:54
+pay_00058,cust_1046,sub_46,4544.62,card_expired,,1,2026-08-14 02:40:27
+pay_00059,cust_1047,sub_47,1800.07,insufficient_funds,,1,2026-08-04 20:16:10
+pay_00060,cust_1047,sub_47,1800.07,insufficient_funds,,2,2026-08-07 14:35:45
+pay_00061,cust_1048,sub_48,560.17,insufficient_funds,,1,2026-08-01 17:02:53
+pay_00062,cust_1049,sub_49,2261.98,issuer_timeout,,1,2026-08-15 09:23:57
+pay_00006,cust_1005,sub_5,3863.77,insufficient_funds,,1,2026-08-07 02:24:06
+pay_00063,cust_1050,sub_50,390.5,ambiguous_bank_error,"Gateway timeout while contacting HDFC Bank - transaction status unknown, may have partially processed.",1,2026-07-06 06:43:15
+pay_00064,cust_1050,sub_50,390.5,ambiguous_bank_error,Declined by issuer (ERR203) - insufficient info from gateway response.,2,2026-07-08 17:56:55
+pay_00065,cust_1050,sub_50,390.5,ambiguous_bank_error,Txn faild - AUTH_TIMEOUT_12. Pls retyr after sometime or contct suport.,3,2026-07-11 04:59:59
+pay_00066,cust_1051,sub_51,1048.85,fraud_suspected,,1,2026-06-29 00:11:47
+pay_00067,cust_1052,sub_52,2175.22,fraud_suspected,,1,2026-05-27 23:51:15
+pay_00068,cust_1053,sub_53,717.86,fraud_suspected,,1,2026-08-16 15:14:12
+pay_00069,cust_1054,sub_54,1663.92,card_expired,,1,2026-07-22 07:01:42
+pay_00070,cust_1054,sub_54,1663.92,card_expired,,2,2026-07-23 12:21:17
+pay_00071,cust_1055,sub_55,1538.8,ambiguous_bank_error,"ERR203: soft decline, customer action may be required but not specified by issuer.",1,2026-05-30 16:25:43
+pay_00072,cust_1055,sub_55,1538.8,ambiguous_bank_error,Payment not completed. ICICI Bank returned no further reason.,2,2026-06-01 00:07:56
+pay_00073,cust_1056,sub_56,382.63,ambiguous_bank_error,"TXN_FAIL_09: soft decline, customer action may be required but not specified by issuer.",1,2026-06-05 13:22:46
+pay_00074,cust_1057,sub_57,754.1,ambiguous_bank_error,"Gateway timeout while contacting Axis Bank - transaction status unknown, may have partially processed.",1,2026-06-08 06:16:02
+pay_00075,cust_1058,sub_58,2783.57,ambiguous_bank_error,"Yes Bank: transaction declined, code TXN_FAIL_09. contact bank.",1,2026-05-27 06:23:27
+pay_00076,cust_1059,sub_59,797.2,issuer_timeout,,1,2026-07-13 16:19:42
+pay_00077,cust_1059,sub_59,797.2,issuer_timeout,,2,2026-07-15 10:25:44
+pay_00007,cust_1006,sub_6,1468.7,insufficient_funds,,1,2026-08-15 23:29:34
+pay_00078,cust_1060,sub_60,2217.14,insufficient_funds,,1,2026-07-03 21:47:57
+pay_00079,cust_1061,sub_61,2148.16,issuer_timeout,,1,2026-08-20 09:18:13
+pay_00080,cust_1062,sub_62,3341.59,issuer_timeout,,1,2026-06-22 14:28:43
+pay_00081,cust_1063,sub_63,4524.67,card_expired,,1,2026-07-30 21:05:18
+pay_00082,cust_1064,sub_64,1807.9,issuer_timeout,,1,2026-07-21 21:19:14
+pay_00083,cust_1065,sub_65,420.83,insufficient_funds,,1,2026-06-21 19:54:49
+pay_00084,cust_1065,sub_65,420.83,insufficient_funds,,2,2026-06-22 14:26:56
+pay_00085,cust_1066,sub_66,3541.5,insufficient_funds,,1,2026-06-18 12:15:09
+pay_00086,cust_1066,sub_66,3541.5,insufficient_funds,,2,2026-06-21 22:00:57
+pay_00087,cust_1067,sub_67,710.62,fraud_suspected,,1,2026-06-27 07:11:51
+pay_00088,cust_1068,sub_68,440.05,card_expired,,1,2026-07-20 03:29:08
+pay_00089,cust_1068,sub_68,440.05,card_expired,,2,2026-07-22 21:33:35
+pay_00090,cust_1068,sub_68,440.05,card_expired,,3,2026-07-25 10:48:57
+pay_00091,cust_1069,sub_69,4480.7,fraud_suspected,,1,2026-06-27 17:28:57
+pay_00008,cust_1007,sub_7,577.24,ambiguous_bank_error,"TXN_FAIL_09: soft decline, customer action may be required but not specified by issuer.",1,2026-07-14 20:39:56
+pay_00092,cust_1070,sub_70,2359.33,fraud_suspected,,1,2026-07-20 20:17:49
+pay_00093,cust_1071,sub_71,1347.38,card_expired,,1,2026-06-25 02:45:18
+pay_00094,cust_1071,sub_71,1347.38,card_expired,,2,2026-06-26 08:21:20
+pay_00095,cust_1072,sub_72,922.99,insufficient_funds,,1,2026-07-02 22:09:45
+pay_00096,cust_1072,sub_72,922.99,insufficient_funds,,2,2026-07-03 02:26:26
+pay_00097,cust_1073,sub_73,497.88,card_expired,,1,2026-06-28 12:57:49
+pay_00098,cust_1074,sub_74,4311.31,mandate_revoked,,1,2026-06-08 12:30:00
+pay_00099,cust_1075,sub_75,2070.94,insufficient_funds,,1,2026-06-28 17:47:47
+pay_00100,cust_1075,sub_75,2070.94,insufficient_funds,,2,2026-07-01 19:57:14
+pay_00101,cust_1075,sub_75,2070.94,insufficient_funds,,3,2026-07-03 07:17:27
+pay_00102,cust_1076,sub_76,3409.59,card_expired,,1,2026-06-30 23:10:53
+pay_00103,cust_1077,sub_77,3185.83,insufficient_funds,,1,2026-08-17 12:37:36
+pay_00104,cust_1078,sub_78,2256.34,insufficient_funds,,1,2026-06-22 05:03:16
+pay_00105,cust_1078,sub_78,2256.34,insufficient_funds,,2,2026-06-24 10:13:29
+pay_00106,cust_1079,sub_79,2018.81,fraud_suspected,,1,2026-06-28 08:53:05
+pay_00009,cust_1008,sub_8,418.96,mandate_revoked,,1,2026-07-22 09:05:54
+pay_00107,cust_1080,sub_80,449.01,mandate_revoked,,1,2026-07-07 07:41:04
+pay_00108,cust_1081,sub_81,3819.32,issuer_timeout,,1,2026-07-20 06:53:01
+pay_00109,cust_1081,sub_81,3819.32,issuer_timeout,,2,2026-07-23 04:15:08
+pay_00110,cust_1082,sub_82,4748.23,insufficient_funds,,1,2026-06-22 22:16:49
+pay_00111,cust_1083,sub_83,4824.93,issuer_timeout,,1,2026-08-06 05:19:06
+pay_00112,cust_1084,sub_84,2962.82,ambiguous_bank_error,"Kotak Mahindra: transaction declined, code BNK-441. contact bank.",1,2026-07-03 12:45:12
+pay_00113,cust_1085,sub_85,3545.53,insufficient_funds,,1,2026-07-13 21:38:51
+pay_00114,cust_1085,sub_85,3545.53,insufficient_funds,,2,2026-07-14 18:50:02
+pay_00115,cust_1086,sub_86,1977.74,card_expired,,1,2026-06-17 20:21:00
+pay_00116,cust_1087,sub_87,705.59,fraud_suspected,,1,2026-07-05 20:57:53
+pay_00117,cust_1088,sub_88,1044.46,insufficient_funds,,1,2026-06-15 20:17:39
+pay_00118,cust_1089,sub_89,2519.79,issuer_timeout,,1,2026-06-26 23:37:17
+pay_00119,cust_1089,sub_89,2519.79,issuer_timeout,,2,2026-06-28 07:53:59
+pay_00010,cust_1009,sub_9,1533.27,insufficient_funds,,1,2026-05-31 11:10:23
+pay_00120,cust_1090,sub_90,1369.54,fraud_suspected,,1,2026-06-22 18:39:42
+pay_00121,cust_1091,sub_91,4283.57,insufficient_funds,,1,2026-07-28 15:13:22
+pay_00122,cust_1092,sub_92,4424.54,insufficient_funds,,1,2026-07-16 17:00:33
+pay_00123,cust_1092,sub_92,4424.54,insufficient_funds,,2,2026-07-17 02:15:46
+pay_00124,cust_1093,sub_93,1352.55,issuer_timeout,,1,2026-06-21 20:45:31
+pay_00125,cust_1094,sub_94,1611.33,insufficient_funds,,1,2026-06-30 22:15:19
+pay_00126,cust_1095,sub_95,2855.67,card_expired,,1,2026-07-07 13:47:35
+pay_00127,cust_1095,sub_95,2855.67,card_expired,,2,2026-07-09 11:44:29
+pay_00128,cust_1096,sub_96,778.15,insufficient_funds,,1,2026-07-27 10:07:47
+pay_00129,cust_1097,sub_97,1087.72,fraud_suspected,,1,2026-07-24 23:30:17
+pay_00130,cust_1098,sub_98,2717.26,ambiguous_bank_error,Payment not completed. ICICI Bank returned no further reason.,1,2026-07-15 03:53:12
+pay_00131,cust_1098,sub_98,2717.26,ambiguous_bank_error,"Gateway timeout while contacting Kotak Mahindra - transaction status unknown, may have partially processed.",2,2026-07-17 05:19:00
+pay_00132,cust_1099,sub_99,460.72,insufficient_funds,,1,2026-07-14 22:08:40
