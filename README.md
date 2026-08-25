@@ -20,30 +20,9 @@ Recovery Copilot diagnoses the actual failure reason first, then applies a bound
 
 ## Architecture
 
-failed_payments.csv
-│
-▼
-diagnosis_engine.py ──► resolves ambiguous bank messages into real
-│ categories via keyword rules; honestly
-│ escalates what it can't confidently classify
-▼
-policy_engine.py ──► hard-coded, non-negotiable rules decide the
-│ action (retry / contact / escalate / stop).
-│ No AI model has authority here — every
-│ decision traces to an explicit rule ID.
-▼
-response_simulator.py ─► simulates whether the chosen action recovers
-│ the payment, using a benchmark-anchored
-│ probability config (config/recovery_probabilities.py)
-▼
-simulation_runner.py ─► runs our policy AND a naive baseline through
-│ 100 trials each, reporting mean ± spread
-▼
-integrations/ ─► generates real Razorpay test-mode payment
-links for a sample of live cases
+![Recovery Copilot Architecture](docs/architecture_diagram.png)
 
-
-Every decision is logged to `outputs/audit_log.csv` with the exact rule that triggered it — nothing here is a black box.
+A failed payment first hits the **diagnosis engine** — already-labeled failures pass through directly, while ambiguous bank messages are classified via keyword rules, honestly escalating anything it can't confidently match. The diagnosed category goes to the **policy engine** — hard-coded, non-negotiable rules decide the action (retry / contact / escalate / stop). No AI model has any authority here; every decision traces to an explicit rule ID. That action runs through the **response simulator**, which models whether it actually recovers the payment using a benchmark-anchored probability config. Every decision — what happened, what we did, and why — is written to the **audit log**. For cases needing a payment link, **Razorpay's real test-mode API** generates a genuine, working checkout link.
 
 ## Results (100-trial average, ours vs. a naive same-treatment-for-everyone baseline)
 
